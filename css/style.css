@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+background-color: rgb(56, 56, 56);
+}
+
+
+
+
+  
+  .navbar-brand{
+    font-family: 'Fredoka One', cursive;
+  }
+  
+
+
+
+  .navbar-collapse{
+    font-family: 'Fredoka One', cursive;
+  }
+
+
+
+p{
+    color:  rgb(145, 145, 145);
+    font-size: 1em;
+    font-family: 'Caveat', cursive;
+}
+     
+
+.lead{
+    color:  rgb(145, 145, 145);
+    font-size: 2em;
+    font-family: 'Caveat', cursive;
+}
+
+.display-4{
+    color: rgb(255, 1, 1);
+    font-family: 'Fredoka One', cursive;
+    text-align: justify;
+	font-size: 2em;
+    
+}
+
+h1{
+    color:  rgb(255, 0, 0);
+    font-family: 'Fredoka One', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+
+h2{
+    color:  white;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+h3{
+    color:  rgb(190, 190, 190);
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+
+.card{
+    color: rgb(255, 0, 0);
+    background-color:  rgb(68, 68, 68);
+    font-family: 'Fredoka One', cursive;
+}
+
+.jumbotron{
+    color: #FFFFFF;
+    background-color: rgb(56, 56, 56);
+    }
+
+    .btn{
+        
+        background-color: red;
+        border: 1px solid red;
+        color: white;
+        font-family: 'Fredoka One', cursive;
+    }
+    .btn:hover{
+        background-color: rgb(218, 0, 0);
+        color: white;
+        font-family: 'Fredoka One', cursive;
+    }
+    .btn-primary.focus,
+    .btn-primary:focus{
+        color: white;
+        background-color: red;
+        border-color: red;
+        box-shadow: 0 0 0 0.2em red;
+        font-family: 'Fredoka One', cursive;
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+    .show > .btn-primary.dropdown-toggle{
+      color: #fff;
+      background-color:  red;
+      border-color: red;
+      box-shadow: 0 0 0 0.2em red;
+      font-family: 'Fredoka One', cursive;
+    }
